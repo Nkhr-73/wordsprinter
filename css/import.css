@@ -1,0 +1,97 @@
+/* ===== 全体 ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Yu Gothic", "Segoe UI", sans-serif;
+    background: #f7f9fc;
+    color: #333;
+}
+
+/* ===== Header ===== */
+
+.header {
+    background: white;
+    padding: 18px 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ===== Main ===== */
+
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* ===== Card ===== */
+
+.import-card,
+.result-card {
+    background: white;
+    border-radius: 18px;
+    padding: 35px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+/* ===== Title ===== */
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* ===== File ===== */
+
+#csvFile {
+    margin-bottom: 20px;
+}
+
+#fileName {
+    margin-bottom: 25px;
+    color: #777;
+}
+
+/* ===== Button ===== */
+
+#importButton {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #34c759;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#importButton:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== Result ===== */
+
+.result-card h2 {
+    margin-bottom: 15px;
+}
+
+#result {
+    color: #555;
+}
