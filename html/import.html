@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import | WordSprint</title>
+
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+
+    <!-- ===== Header ===== -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">🏃 WordSprint</a>
+        </div>
+    </header>
+
+    <!-- ===== Main ===== -->
+    <main class="container">
+
+        <section class="import-card">
+
+            <h1>📥 CSV Import</h1>
+
+            <p class="description">
+                単語帳（CSV形式）を読み込みます。
+            </p>
+
+            <input
+                type="file"
+                id="csvFile"
+                accept=".csv">
+
+            <p id="fileName">
+                ファイルが選択されていません
+            </p>
+
+            <button id="importButton">
+                読み込む
+            </button>
+
+        </section>
+
+        <section class="result-card">
+
+            <h2>読み込み結果</h2>
+
+            <div id="result">
+
+                <p>
+                    まだ読み込まれていません。
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/import.js"></script>
+
+</body>
+</html>
