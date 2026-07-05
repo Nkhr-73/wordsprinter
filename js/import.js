@@ -21,3 +21,10 @@ function showFileName() {
     // ファイル名を表示
     fileName.textContent = csvFile.files[0].name;
 }
+
+　　//読み込み開始アラート
+const importButton = document.getElementById("importButton");
+
+importButton.addEventListener("click", function () {
+    alert("読み込み開始！");
+});
