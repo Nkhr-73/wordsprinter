@@ -42,7 +42,7 @@ function readCSV() {
 
         const csvText = event.target.result;
 
-        console.log(csvText);
+        console.log(JSON.stringify(csvText));
 
         document.getElementById("result").textContent = csvText;
 
