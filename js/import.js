@@ -1,3 +1,4 @@
+alert("JavaScript読み込み成功！");
 // ===== 要素取得 =====
 
 const csvFile = document.getElementById("csvFile");
