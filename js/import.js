@@ -41,6 +41,18 @@ function readCSV() {
     reader.onload = function (event) {
 
         const csvText = event.target.result;
+        // 改行ごとに分割
+const lines = csvText.trim().split(/\r?\n/);
+
+// 確認
+console.log(lines);
+
+// 画面にも表示してみる
+document.getElementById("result").innerHTML = "";
+
+lines.forEach(line => {
+    document.getElementById("result").innerHTML += line + "<br>";
+});
 
         console.log(JSON.stringify(csvText));
 
