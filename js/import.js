@@ -43,6 +43,11 @@ function readCSV() {
         const csvText = event.target.result;
         // 改行ごとに分割
 const lines = csvText.trim().split(/\r?\n/);
+        // 1行目をカンマで区切る
+const headers = lines[0].split(",");
+
+// 確認
+console.log(headers);
 
 // 確認
 console.log(lines);
