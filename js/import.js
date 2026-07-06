@@ -54,7 +54,13 @@ for (let i = 1; i < lines.length; i++) {
 
     const values = lines[i].split(",");
 
-    console.log(values);
+    const word = {};
+
+    for (let j = 0; j < headers.length; j++) {
+        word[headers[j]] = values[j];
+    }
+
+    console.log(word);
 
 }
 
