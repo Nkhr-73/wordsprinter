@@ -49,6 +49,15 @@ const headers = lines[0].split(",");
 // 確認
 console.log(headers);
 
+        // ヘッダー以外を1行ずつ読む
+for (let i = 1; i < lines.length; i++) {
+
+    const values = lines[i].split(",");
+
+    console.log(values);
+
+}
+
 // 確認
 console.log(lines);
 
