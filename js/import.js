@@ -49,6 +49,8 @@ const headers = lines[0].split(",");
 // 確認
 console.log(headers);
 
+        const words = [];
+
         // ヘッダー以外を1行ずつ読む
 for (let i = 1; i < lines.length; i++) {
 
@@ -59,6 +61,7 @@ for (let i = 1; i < lines.length; i++) {
     for (let j = 0; j < headers.length; j++) {
         word[headers[j]] = values[j];
     }
+    words.push(word);
 
     console.log(word);
 
