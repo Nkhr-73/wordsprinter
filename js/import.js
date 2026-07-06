@@ -64,10 +64,9 @@ for (let i = 1; i < lines.length; i++) {
     words.push(word);
 
 }
-         console.log(word);
 
-// 確認
-console.log(lines);
+// 完成した単語帳を確認
+console.log(words);
 
 // 画面にも表示してみる
 document.getElementById("result").innerHTML = "";
