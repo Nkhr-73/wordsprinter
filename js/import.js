@@ -64,23 +64,10 @@ for (let i = 1; i < lines.length; i++) {
     words.push(word);
 
 }
-         console.log(word);
+         console.log(words);
 
-// 確認
-console.log(lines);
 
-// 画面にも表示してみる
-document.getElementById("result").innerHTML = "";
 
-lines.forEach(line => {
-    document.getElementById("result").innerHTML += line + "<br>";
-});
-
-        console.log(JSON.stringify(csvText));
-
-        document.getElementById("result").textContent = csvText;
-
-    };
 
     reader.readAsText(file, "UTF-8");
 
