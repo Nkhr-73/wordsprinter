@@ -63,9 +63,8 @@ for (let i = 1; i < lines.length; i++) {
     }
     words.push(word);
 
-    console.log(word);
-
 }
+         console.log(word);
 
 // 確認
 console.log(lines);
